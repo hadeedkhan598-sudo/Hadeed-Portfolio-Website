@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: #121e28;
+}
+header{
+    background-color: #121e28;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    opacity: 100;
+    animation: fadein 2s ease-in-out 0s 1  ;
+}
+.icon{
+    display: none;
+    height: 40px;
+    width: 100px;
+    text-align: end;
+    cursor: pointer;
+    font-size: 30px;
+}
+.icon svg{
+    height: 90%;
+    width: 50%;
+}
+/* trying animation  */
+
+
+/**/
+.resmenu{
+    width: 100%;
+    height: 350px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   display: none;
+    text-align: center;
+    align-content: center;
+}
+.resmenu ul li a{
+    font-size: 30px;
+    color: White;
+    display: block;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+.resmenu ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    } 
+}
+.logo h2{
+    font-size: 26px;
+    cursor: pointer;
+   font-family: cursive;
+}
+.pmenu ul{
+    display: flex;
+    /* padding-top: 4px; */
+}
+.pmenu ul li a{
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    display: block;
+    font-size: 18px;
+    width: 90px;
+    height: 40px;
+    /* border-radius: 10px; */
+    align-content: center;
+    text-align: center;
+}
+.pmenu ul li a:hover{
+    border-bottom: 3px solid white;
+}
+@media (max-width:600px){
+    .pmenu{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+}
+/* Header End  */
+.herosection{
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    background-color: #121e28;
+}
