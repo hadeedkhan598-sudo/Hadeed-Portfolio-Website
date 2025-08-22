@@ -17,6 +17,7 @@ header{
     display: flex;
     position: fixed;
     top: 0px;
+    z-index: 2;
     justify-content: space-between;
     color: white;
     align-items: center;
@@ -94,10 +95,11 @@ header{
 /* Header End  */
 .herosection{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
     align-items: center;
     justify-content: space-between;
     background-color: #121e28;
@@ -184,6 +186,7 @@ margin-right: 50px;
         text-align: center;
         align-items: center;
         justify-content: center;
+        height: 150vh;
     }
     .hright{
         margin-top: 20px;
@@ -207,3 +210,58 @@ margin-right: 50px;
     }
 }
 /* 21-08-2025 End Time  */
+/* About Section  */
+.about{
+    color: white;
+    width: 900px;
+    height: 320px;
+    overflow: hidden;
+    transform: translateX(320px);
+text-align: center;
+border-radius: 12px;
+ box-shadow: 2px 2px 20px rgb(93, 113, 192);
+animation: abouta 3.4s ease-in-out 0s 1  ;
+margin-bottom: 20px;
+}
+.atext{
+    overflow: hidden;
+    border-radius: 12px;
+}
+.atext h2{
+    font-size: 56px;
+    font-family: cursive;
+    margin-bottom: 10px;
+    width: 310px;
+    text-transform: uppercase;
+    margin-left: 300px;
+    text-wrap: nowrap;
+   overflow: hidden;
+    animation: typing 2s steps(45) 1s infinite ;
+}
+.atext p{
+    font-size: 21px;
+    line-height: 40px;
+}
+@keyframes abouta {
+    from{
+        transform: translateX(300vh);
+    }
+}
+@media (max-width:600px) {
+    .about{
+        transform: translateX(1px);
+        width: 100%;
+        height: 82vh;
+        line-height: 50px;
+    }
+    .atext{
+        width: 100%;
+        height: 100%;
+    }
+    .atext h2{
+        margin-left: 120px;
+        font-size: 40px;
+        width: 220px;
+    }
+}
+/* Last Updated in 22-Aug-2025  */
