@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hadeed Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-</head>
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+</head>
 <body>
     <header>
         <div class="logo">
@@ -18,8 +18,9 @@
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="#aboutsection">About</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#p">Project</a></li>
+                <li><a href="#c">Contact</a></li>
             </ul>
         </div>
         <div class="icon" id="icon">
@@ -32,8 +33,9 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#aboutsection">About</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#p">Project</a></li>
+            <li><a href="#c">Contact</a></li>
         </ul>
     </div>
     <!-- Header End  -->
@@ -44,24 +46,106 @@
             <h4>I'm HADEED KHAN</h4>
             <h5>Website Developer</h5>
             <a href="https://wa.me/923708137907?text=Hello%20Hadeed!">
-            <button>Contact Now</button>
+                <button>Contact Now</button>
             </a>
         </div>
         <div class="hright">
             <img src="img/img.png" alt="">
         </div>
     </div>
-<!-- About Section  -->
- <div class="about" id="aboutsection">
-    <div class="atext">
-        <h2>About Us</h2>
-        <p>I’m Hadeed Khan, a Web Developer with a passion for building modern and responsive websites. Skilled in HTML, CSS, JavaScript, and WordPress, I love turning ideas into digital experiences. My goal is to help businesses grow online by creating websites that are both functional and visually appealing. Outside of coding, I enjoy exploring new skills and staying up-to-date with the latest trends in technology.</p>
+    <div class="skills">
+        <h4>Html</h4>
+        <h4>Css</h4>
+        <h4>JavaScript</h4>
+        <h4>Wordpress</h4>
+        <h4>Bootstrap</h4>
     </div>
- </div>
-/* Last Updated in 22-Aug-2025  */
-
-
-    <script src="script.js"></script>
+    <!-- About Section  -->
+    <div class="about" id="aboutsection">
+        <div class="atext">
+            <h2>About Us</h2>
+            <p>I’m Hadeed Khan, a Web Developer skilled in HTML, CSS, JavaScript, and WordPress. I create modern, responsive websites that are functional and visually appealing. Passionate about tech, I love exploring new skills and keeping up with the latest trends.</p>
+        </div>
+    </div>
+    <!-- Services Section  -->
+    <div class="Ssection" id="services">
+        <h2>Our Services</h2>
+        <div class="sboxs">
+            <div class="s">
+                <img src="img/code.png" alt="">
+                <h3>Web Development</h3>
+                <p>I create modern and fully responsive websites using HTML, CSS, and JavaScript. My focus is on clean
+                    code, attractive design, and smooth user experience so that your business stands out online.</p>
+            </div>
+            <div class="s">
+                <img src="img/WordPress.png" alt="">
+                <h3>WordPress Development</h3>
+                <p>I build and customize WordPress websites according to your needs. From personal blogs to business
+                    sites and e-commerce stores, I make sure everything is easy to manage and user-friendly.</p>
+            </div>
+            <div class="s">
+                <img src="img/search.png" alt="">
+                <h3>Website Optimization</h3>
+                <p>I help improve your website speed, mobile responsiveness, and SEO. A fast and optimized website not
+                    only attracts more visitors but also provides a better experience to your customers.</p>
+            </div>
+        </div>
+    </div>
+    <div class="PSection" id="p">
+        <h2>Projects</h2>
+        <div class="pbox">
+        <div class="p">
+            <h2> Gym Website</h2>
+            <p>This website showcases a gym with sections for home, about, classes, testimonials, and contact details.</p>
+           <a href="https://hgym.netlify.app/" target="_blank"><button>Live Demo</button></a>
+        </div>
+        <div class="p">
+            <h2>Ecommerce Store</h2>
+            <p>E-commerce demo: fast, clean UI with featured products & categories.
+Role: Frontend | Stack: HTML, CSS, JS</p>
+            <a href="https://hstore1.netlify.app/" target="_blank"><button>Live Demo</button></a>
+        </div>
+        <div class="p">
+            <h2>SafePass</h2>
+            <p>SafePass is a mini password manager that saves and deletes login details using localStorage.</p>
+            <a href="https://safepassh.netlify.app/" target="_blank"><button>Live Demo</button></a>
+        </div>
+        </div>
+    </div>
+    <div class="CSection" id="c">
+        <div class="c">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Get in touch with us through any of the following ways.</p>
+            <div class="icon1">
+                <i class="material-icons">phone</i>
+                <h3>+923708137907</h3>
+            </div>
+            <div class="icon1">
+                <i class="material-icons">email</i>
+                <h3>hadeedkhan598@gmail.com</h3>
+            </div>
+            <div class="icon1">
+                <i class="material-icons">location_on</i>
+                <h3>Oghi Mansehra KPK Pakistan</h3>
+            </div>
+            <div class="socialicon">
+                <a href="https://web.facebook.com/hadeed.khanyousafzai.3" target="_blank"><img src="img/facebook.png"
+                        alt=""></a>
+                <a href="https://wa.me/923708137907" target="_blank"><img src="img/social.png" alt=""></a>
+                <a href="https://www.tiktok.com/@wpbyhadeed" target="_blank"><img src="img/tiktok.png" alt=""></a>
+                <a href="https://www.instagram.com/hadeedkhanyousafzai/" target="_blank"><img src="img/instagram .png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+<!-- Start Footer  -->
+<div class="f">
+    <h2>© 2025 Hadeed Khan. All Rights Reserved</h2>
+    <h2>Designed & Developed with ❤️ by Hadeed  </h2>
+    <a href="https://web.facebook.com/hadeed.khanyousafzai.3">Facebook</a>
+    <a href="https://wa.me/923708137907">Whatsapp</a>
+    <a href="https://www.instagram.com/hadeedkhanyousafzai/">Instagram</a>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
